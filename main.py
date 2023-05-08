@@ -2,6 +2,7 @@ from menu import menu
 from clock import clock
 from stopwatch import stopwatch
 from timer import timer
+from calender import calender
 
 PROGRAM_TITLE = "PY CLOCK"
 print(PROGRAM_TITLE.center(30, '-'))
@@ -16,6 +17,8 @@ while (1):
         mode = stopwatch(mode)
     elif mode == 3:
         mode = timer(mode)
+    elif mode == 4:
+        mode = calender(mode)
     elif mode == 5:
         print("Exiting Program")
         break
