@@ -1,6 +1,7 @@
 # PY-Time
 ![PY-Time](/PY-Timer.jpg)
-A simple console based python time application using time and daytime module.
+A simple console based python time application created using time and daytime module.
+This project is part of my college assignment.
 
 # Features:
 
