@@ -3,8 +3,7 @@ import time
 def stopwatch(mode): 
     input("Press ENTER to start")
     
-    # read the local time, split the string into list &  read the 3rd element which is the time in 24 hours format
-    localTime = ((time.ctime()).split())[3]
+    localTime = time.strftime("%X")
     startTime = localTime.split(':')
     
     totalStartSeconds = int(startTime[0]) * 3600 + int(startTime[1]) * 60 + int(startTime[2])
@@ -18,8 +17,7 @@ def stopwatch(mode):
             print("Incorrect value")
             continue
         
-        # read the local time, split the string into list &  read the 3rd element which is the time in 24 hours format
-        currentLocalTime = ((time.ctime()).split())[3]
+        currentLocalTime = time.strftime("%X")
         currentTime = currentLocalTime.split(':')
         
         currentSeconds = int(currentTime[0]) * 3600 + int(currentTime[1]) * 60 + int(currentTime[2])            
