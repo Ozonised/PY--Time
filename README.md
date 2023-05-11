@@ -11,3 +11,10 @@ This project is part of my college assignment.
 | 2 | Stopwatch | Display the elapsed time | [stopwatch](/stopwatch.py) |
 | 3 | Timer | counts down from a set time | [timer](/timer.py) |
 | 4 | Calender | Displays the Day, Month, Date & Year | [calender](/calender.py)
+
+# Contributers:
+1. Farhan Khan
+2. Kunal Saha
+3. Priyanshu Srivastava
+4. Abhay Das
+5. Anurag Sinha
